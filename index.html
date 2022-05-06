@@ -1,0 +1,114 @@
+<html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+    </style>
+<link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body onload="startTime()">
+    <div class="tite_text" id="chColor" > Hello, <i id="myName">...</i>! Welcome to my home. Now I have Only one room, but i'm still trying to build my house.</div>
+    <br />
+    <div id="left" class="status_text">
+        
+      <div class="calendar"> 
+        <div id="month">month</div> 
+        <div id="day">day</div>
+        <div id="wday">nameDay</div>
+        <div id="time">time</div>
+      </div>
+       
+    </div>
+    
+    <div id="right">
+        <table align="center">
+            <tr>
+                <td class="left_top_corner"></td>
+                <td class="top_border"></td>
+                <td class="right_top_corner"></td>
+
+            </tr>
+            <tr>
+                <td class="left_border"></td>
+                <td class="background_room">
+                    <table class="inside_table">
+                        <Tr>
+                            <td class="inside_segment"><img src="https://s1.iconbird.com/ico/2013/3/635/w112h2641393885391138.png" width="25" height="50"><br />
+                                 23.6°С</td>
+                            <td class="inside_segment"><img src="https://icons.iconarchive.com/icons/custom-icon-design/lovely-weather-2/512/Humidity-icon.png" width="50" height="50">
+                                <br>
+                                53%
+                            </td>
+                            <td class="inside_segment">
+                                <img src="https://s1.iconbird.com/ico/2013/3/635/w208h2481393885387118.png" width="34" height="50">
+                                <br/>
+                                <progress id ="flower" max="100" value="100"></progress>      
+                            </td>
+                        </Tr>
+                        <tr>
+                            <td class="inside_segment"><img src="https://img.icons8.com/bubbles/2x/bed.png" width="70" height="70">
+                                <br /><br />
+                                My bed is not bad
+                            </td>
+                            <td class="inside_segment"><img src="https://i.otzovik.com/objects/b/780000/776464.png" width="90" height="auto">
+                                <br />
+                                My pretty carpet
+                            </td>
+                            <td class="inside_segment">
+                                <div class="inside_segment">
+                                    <img src="https://img.icons8.com/officel/2x/table.png" width="70" /><br /> My table
+                                </div>
+                               <div onclick="sum()" class="inside_segment">
+                                  <img src="https://i.gifer.com/24S2.gif" width="60"><br>
+                                    My calculator for education</div>
+
+                            </td>
+                        </tr>
+                        <Tr>
+                            <td class="inside_segment">
+                                <center>
+                                    <div class="dream_ico"> </div>
+                                </center>
+                                My imagine TV
+                            </td>
+                            <td class="inside_segment">
+                                <center>
+                                    <div class="dream_ico"> </div>
+                                </center>My imagine Play Station(Xbox)
+                            </td>
+                            <td class="inside_segment">
+                                <center>
+                                    <div class="dream_ico"> </div>
+                                </center>My imagine VR
+                            </td>
+                        </Tr>
+                        <tr>
+                            <td colspan="3" class="inside_segment">
+                                <div class="window" id="colorWindow">Window</div>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+
+                <td class="right_border"></td>
+
+            </tr>
+            <tr>
+                <td class="left_down_corner"></td>
+                <td class="bot_border"></td>
+                <td class="right_down_corner"></td>
+
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div class="room">
+                        This is my first virtual smart room,based on ESP32. I want to control climate and humdidty in my room. I flew to another planet with an important mission.If someone read this text, you can text me into my <a href="/" target="_blank">Instagram </a>. If you want other rooms you can link it <a href="/">here</a>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,275 @@
+    table,
+    tr,
+    td {
+        border: none;
+        border-collapse: collapse;
+    }
+    
+    .tite_text {
+        font-size: 30;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    
+    .background_room {
+        background: #450b6a ;
+        border: 3px black solid;
+    }
+    
+    
+    /* .left_border {
+        background-image: url(https://i.ibb.co/KVP6dw6/leftborder.png);
+        width: 46px;
+        height: 400px;
+        background-position: -7px;
+        background-size: contain;
+    }
+    
+    .right_border {
+        background-image: url(https://i.ibb.co/vZ06vvr/rightborder.png);
+        background-position: 8px;
+        width: 45px;
+        height: 400px;
+        background-size: contain;
+    }
+    
+    .bot_border {
+        background-image: url(https://i.ibb.co/gjCrQp0/bottomborder.png);
+        width: 300px;
+        height: 47px;
+        background-position: 0 7px;
+        background-size: contain;
+    }
+    
+    .top_border {
+        background-image: url(https://i.ibb.co/zFgJHv6/topborder.png);
+        width: 300px;
+        height: 46px;
+        background-position: 0 -4px;
+        background-size: contain;
+    }
+    
+    .right_top_corner {
+        background-image: url(https://i.ibb.co/rfVM2nc/toprightcorner.png);
+        width: 45px;
+        height: 46px;
+        background-size: contain;
+    }
+    
+    .left_top_corner {
+        background-image: url(https://i.ibb.co/fH88S6V/topleftcorner.png);
+        width: 45px;
+        height: 48px;
+        background-size: contain;
+    }
+    
+    .right_down_corner {
+        background-image: url(https://i.ibb.co/KsTd4Ry/downrightcorner.png);
+        width: 46px;
+        height: 47px;
+        background-repeat: no-repeat;
+        background-size: 99%;
+    }
+    
+    .left_down_corner {
+        background-image: url(https://i.ibb.co/p1Kdzkg/downleftcorner.png);
+        width: 46px;
+        height: 47px;
+    
+        background-size: contain;
+    } */
+    
+    body {
+        background: linear-gradient(270deg, #450b6a, #00234e);
+        background-size: 400% 400%;
+        animation: Gradient 5s ease infinite;
+    }
+    
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+    
+        50% {
+            background-position: 100% 50%
+        }
+    
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    
+    .inside_table {
+        border: 1px solid;
+        height: 400px;
+    
+    }
+    
+    .inside_segment {
+        width: 100px;
+        height: auto;
+        border: 1px solid;
+        vertical-align: top;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .inside_segment:hover {
+        color: #FFE4C4;
+        border: 2px solid;
+        background: #630f99;
+        transition: all 1s;
+    }
+    
+    .inside_segment:not(:hover) {
+        transition: 1s;
+    }
+    
+    progress {
+        width: 60;
+        margin-top: 3px;
+    }
+    
+    .dream_ico {
+        background-image: url('https://static.thenounproject.com/png/14958-200.png');
+        background-size: contain;
+        background-position: center;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+    
+    .dream_ico:hover {
+        width: 80px;
+        height: 80px;
+        transition: 3s;
+    }
+    
+    .window {
+        background: #408eed;
+        width: 100%;
+        height: 20px;
+        color: #2766B3;
+        text-align: center;
+        transition: all 1s;
+    }
+    
+    .room {
+        width: 400px;
+        color: #FAEBD7;
+        font-family: Arial;
+        font-size: 15px;
+        text-align: center;
+        animation: slider 2s 1;
+    }
+    
+    @keyframes slider {
+        from {
+            margin-left: 100%;
+            width: 400px;
+        }
+    
+        to {
+            margin-left: 0%;
+            width: 400px;
+        }
+    }
+    
+    #left {
+        position: absolute;
+        width: 50%;
+        left: 3%;
+        top: 90px;
+    }
+    
+    #right {
+        position: absolute;
+        width: 60%;
+        right: 20%;
+        top: 90px;
+    }
+    
+    .status_text {
+        font-family: 'Russo One', sans-serif;
+        color: #FAEBD7;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    #on {
+        color: green;
+    
+    }
+    
+    #off {
+        color: red;
+        animation: blink-a 1s linear infinte;
+    }
+    
+    @keyframes blink-a {
+        50% {
+            opacity: 0;
+        }
+    }
+    
+    @-webkit-keyframes blink-a {
+        50% {
+            opacity: 0;
+        }
+    }
+    
+    /* [target="_blank"] {
+        background: url('https://i.ibb.co/9ywBWLh/link-ico.png') no-repeat;
+        background-size: 15px 14px;
+        padding-left: 15px;
+    } */
+    
+    .calendar{
+      background: url('https://i.ibb.co/pR4fjTF/kalendarniy-list1.png') no-repeat;
+      width: 100px;
+      height: 80px;
+      background-size: 100px 80px;
+      
+    }
+    #month{
+      font-size: 15px;
+      text-align: center;
+      padding-top: 4px;
+      color: #FFFFFF;
+    }
+    #day{
+      color: #000000;
+      text-align: center;
+      font-size: 30px;
+      
+    }
+    #time{
+      margin-top: 10px;
+      font-family: Impact;
+      font-size: 25px;
+      color:black ;
+      background: #FFFFFF;
+      width: 100px;
+      text-align: center;
+    }
+    #wday{
+      margin-top: -8px;
+      color: #000000;
+      font-size: 20px;
+      text-align: center;
+    }
+    button{
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      margin-top: 10px; 
+      height: 50px;
+      font-size: 14px;
+      transition: all 1s ease;
+    }
+    button:hover{
+      background-color: #008CBA;
+    }
+    #org_div1{
+      color: #FAEBD7;
+    }
