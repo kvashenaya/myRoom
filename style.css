@@ -7,7 +7,6 @@
     
     .tite_text {
         font-size: 30;
-        color: #FFFFFF;
         text-align: center;
     }
     
@@ -16,69 +15,7 @@
         border: 3px black solid;
     }
     
-    
-    /* .left_border {
-        background-image: url(https://i.ibb.co/KVP6dw6/leftborder.png);
-        width: 46px;
-        height: 400px;
-        background-position: -7px;
-        background-size: contain;
-    }
-    
-    .right_border {
-        background-image: url(https://i.ibb.co/vZ06vvr/rightborder.png);
-        background-position: 8px;
-        width: 45px;
-        height: 400px;
-        background-size: contain;
-    }
-    
-    .bot_border {
-        background-image: url(https://i.ibb.co/gjCrQp0/bottomborder.png);
-        width: 300px;
-        height: 47px;
-        background-position: 0 7px;
-        background-size: contain;
-    }
-    
-    .top_border {
-        background-image: url(https://i.ibb.co/zFgJHv6/topborder.png);
-        width: 300px;
-        height: 46px;
-        background-position: 0 -4px;
-        background-size: contain;
-    }
-    
-    .right_top_corner {
-        background-image: url(https://i.ibb.co/rfVM2nc/toprightcorner.png);
-        width: 45px;
-        height: 46px;
-        background-size: contain;
-    }
-    
-    .left_top_corner {
-        background-image: url(https://i.ibb.co/fH88S6V/topleftcorner.png);
-        width: 45px;
-        height: 48px;
-        background-size: contain;
-    }
-    
-    .right_down_corner {
-        background-image: url(https://i.ibb.co/KsTd4Ry/downrightcorner.png);
-        width: 46px;
-        height: 47px;
-        background-repeat: no-repeat;
-        background-size: 99%;
-    }
-    
-    .left_down_corner {
-        background-image: url(https://i.ibb.co/p1Kdzkg/downleftcorner.png);
-        width: 46px;
-        height: 47px;
-    
-        background-size: contain;
-    } */
-    
+
     body {
         background: linear-gradient(270deg, #450b6a, #00234e);
         background-size: 400% 400%;

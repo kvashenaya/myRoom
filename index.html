@@ -3,10 +3,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
     </style>
-<link type="text/css" rel="stylesheet" href="style.css"/>
+ <link type="text/css" rel="stylesheet" href="style.css"/>
 </head>
 <body onload="startTime()">
-    <div class="tite_text" id="chColor" > Hello, <i id="myName">...</i>! Welcome to my home. Now I have Only one room, but i'm still trying to build my house.</div>
+    <div class="tite_text"> <p id="chColor">Hello! Welcome to my home. Now I have Only one room, but i'm still trying to build my house.</p></div>
     <br />
     <div id="left" class="status_text">
         
@@ -30,7 +30,7 @@
             <tr>
                 <td class="left_border"></td>
                 <td class="background_room">
-                    <table class="inside_table">
+                    <table class="inside_table" id="inTable">
                         <Tr>
                             <td class="inside_segment"><img src="https://s1.iconbird.com/ico/2013/3/635/w112h2641393885391138.png" width="25" height="50"><br />
                                  23.6°С</td>
@@ -39,7 +39,7 @@
                                 53%
                             </td>
                             <td class="inside_segment">
-                                <img src="https://s1.iconbird.com/ico/2013/3/635/w208h2481393885387118.png" width="34" height="50">
+                                <img onclick="Flower(10)" src="https://s1.iconbird.com/ico/2013/3/635/w208h2481393885387118.png" width="34" height="50">
                                 <br/>
                                 <progress id ="flower" max="100" value="100"></progress>      
                             </td>
@@ -57,7 +57,7 @@
                                 <div class="inside_segment">
                                     <img src="https://img.icons8.com/officel/2x/table.png" width="70" /><br /> My table
                                 </div>
-                               <div onclick="sum()" class="inside_segment">
+                               <div class="inside_segment">
                                   <img src="https://i.gifer.com/24S2.gif" width="60"><br>
                                     My calculator for education</div>
 
@@ -108,7 +108,11 @@
             </tr>
 
         </table>
+
+        <button onclick="changeColor()">Change color</button>
     </div>
+   
 <script type="text/javascript" src="js.js"></script>
 </body>
+<script type="text/javascript" src="js.js"></script>
 </html>
